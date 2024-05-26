@@ -1,0 +1,194 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(
+    rgb(100, 0, 171) 0%,
+    rgb(153, 90, 198) 30%,
+    rgb(151, 29, 238) 100%
+  );
+}
+
+.left img {
+  height: 121%;
+  width: 91%;
+  filter: drop-shadow(10px 10px 10px #00000052);
+}
+
+.left #eye1 {
+  z-index: 999;
+  position: absolute;
+  height: 10%;
+  width: 1%;
+  margin-top: -231px;
+  margin-left: 3rem;
+  transform: rotate(-101deg);
+}
+.left #eye2 {
+  z-index: 999;
+  position: absolute;
+  height: 10%;
+  width: 1%;
+  margin-top: -226px;
+  margin-left: -37px;
+  transform: rotate(-101deg);
+}
+
+.left #Nose {
+  z-index: 999;
+  position: absolute;
+  height: 10%;
+  width: 1%;
+  margin-top: -200px;
+  margin-left: 14px;
+  transform: rotate(-45deg);
+}
+
+.left #Smile {
+  z-index: 999;
+  position: absolute;
+  height: 22%;
+  width: 10px;
+  margin-top: -159px;
+  margin-left: 15px;
+  transform: rotate(-109deg);
+}
+.right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.right h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 700;
+  text-shadow: 3px 3px 3px #ffbf00;
+}
+
+.right h2 {
+  padding-top: 8px;
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 3px 3px 4px #f6c226;
+}
+
+form input {
+  width: 100%;
+  outline: none;
+  border: 2px solid black;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background: #ffffff;
+}
+
+input:focus {
+  border: 2px solid black;
+  transition: all 1s ease-in-out;
+  box-shadow: 0px 0px 100px 1px #ff99008e;
+}
+
+input {
+  font-weight: 500;
+}
+#note {
+  margin-bottom: 40px;
+}
+
+#Name {
+  margin-bottom: 40px;
+  width: 100%;
+  margin-right: 250px;
+}
+
+#mail {
+  width: 100%;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+#Confirm {
+  margin-top: 20px;
+}
+.recover {
+  text-align: right;
+  margin-top: 9px;
+}
+.recover a {
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+  text-decoration-line: underline;
+  /* text-shadow: 1px 1px 12px #ff9900; */
+  color: #6d1d7d;
+}
+
+button {
+  width: 110px;
+  height: 35px;
+  border-radius: 20px;
+  padding: 2px;
+  color: white;
+  background-color: black;
+  outline: none;
+  border: solid black 1px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #6d1d7d;
+  color: white;
+  border: rgb(151, 29, 238) solid 1px;
+  transition: all 0.1s ease-in-out;
+  box-shadow: 0px 0px 10px 1px #000000;
+}
+
+.memeber a {
+  color: #6d1d7d;
+}
+.terms {
+  margin: 10px;
+}
+.terms #checkbox {
+  accent-color: #6d1d7d;
+}
+
+.terms a {
+  color: #6d1d7d;
+}
